@@ -12,9 +12,11 @@ BuildRequires:	wxGTK2-devel >= 2.5.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Wired aims to be a professional music production and creation software running on the Linux operating system.
+Wired aims to be a professional music production and creation 
+software running on the Linux operating system.
 
-It brings musicians a complete studio environment to compose and record music without requiring expensive hardware. 
+It brings musicians a complete studio environment to compose and 
+record music without requiring expensive hardware. 
 
 %prep
 %setup -q -n %{name}
