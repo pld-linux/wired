@@ -1,13 +1,16 @@
 Summary:	Professional music production system
 Summary(pl):	Profesjonalny system produkcji muzyki
 Name:		wired
-Version:	0.1
+Version:	0.11
 Release:	1
 License:	GPL
-Group:		X11/Applications
+Group:		X11/Applications/Sound
 Source0:	http://dl.sourceforge.net/wired/%{name}-%{version}.tar.gz
-# Source0-md5:	90db7fe5b070a3fb4255d681226626cd
+# Source0-md5:	6002612be1a520088becb1e3369a1088
 URL:		http://bloodshed.net/wired/
+BuildRequires:	portaudio-devel
+BuildRequires:	soundtouch-devel
+BuildRequires:	libsndfile-devel
 BuildRequires:	wxGTK2-devel >= 2.5.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
