@@ -1,5 +1,5 @@
-#
 Summary:	Professional music production system
+Summary(pl):	Profesjonalny system produkcji muzyki
 Name:		wired
 Version:	0.1
 Release:	1
@@ -18,12 +18,18 @@ software running on the Linux operating system.
 It brings musicians a complete studio environment to compose and 
 record music without requiring expensive hardware. 
 
+%description -l pl
+Wired ma byæ profesjonalnym oprogramowaniem do produkcji i tworzenia
+muzyki dzia³aj±ce pod systemem operacyjnym Linux.
+
+Dostarcza muzykom kompletne ¶rodowisko studyjne do komponowania i
+nagrywania muzyki bez wymagania drogiego sprzêtu.
+
 %prep
 %setup -q -n %{name}
 
 %build
 cd src
-#rm -f missing
 #%{__libtoolize}
 #%{__aclocal}
 #%{__autoconf}
