@@ -1,6 +1,6 @@
 # NOTE: current version is 0.2.2
 Summary:	Professional music production system
-Summary(pl.UTF-8):   Profesjonalny system produkcji muzyki
+Summary(pl.UTF-8):	Profesjonalny system produkcji muzyki
 Name:		wired
 Version:	0.11
 Release:	1
